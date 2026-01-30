@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blush & Bloom | Cosmetics</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fff6f8;
+      color: #333;
+    }
+
+    header {
+      background: #f7c1cc;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #8b2c4a;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #8b2c4a;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+      background: linear-gradient(to right, #fde2e8, #fff6f8);
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      color: #8b2c4a;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      padding: 12px 30px;
+      border: none;
+      background: #8b2c4a;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 60px 40px;
+    }
+
+    .section h3 {
+      text-align: center;
+      font-size: 32px;
+      color: #8b2c4a;
+      margin-bottom: 40px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background: #ffffff;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-card h4 {
+      margin-bottom: 8px;
+    }
+
+    .product-card span {
+      color: #8b2c4a;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #f7c1cc;
+      padding: 20px;
+      text-align: center;
+      color: #8b2c4a;
+      margin-top: 60px;
+    }
+
+    @media(max-width: 600px) {
+      .hero h2 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blush & Bloom</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Glow Naturally. Bloom Confidently.</h2>
+    <p>Premium, skin-loving cosmetics designed to enhance your natural beauty.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="section" id="products">
+    <h3>Our Best Sellers</h3>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="Lipstick">
+        <h4>Rose Matte Lipstick</h4>
+        <span>₹799</span>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1629198735660-e39ea7d94f1d" alt="Blush">
+        <h4>Peach Bloom Blush</h4>
+        <span>₹699</span>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1608979048467-6194dabc6f65" alt="Foundation">
+        <h4>Silk Glow Foundation</h4>
+        <span>₹1,299</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h3>About Blush & Bloom</h3>
+    <p style="max-width:800px;margin:auto;text-align:center;line-height:1.7;">
+      Blush & Bloom is a modern cosmetic brand inspired by softness, confidence, and natural beauty.
+      Our products are cruelty-free, skin-safe, and designed for everyday elegance.
+    </p>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p style="text-align:center;">Email: support@blushandbloom.com | Instagram: @blushandbloom</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Blush & Bloom Cosmetics. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
